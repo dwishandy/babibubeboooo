@@ -300,6 +300,15 @@ body {
   z-index: 2;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  font-family: "Comic Neue", cursive;
+}
+
 ::-webkit-scrollbar {
   width: 12px;
 }

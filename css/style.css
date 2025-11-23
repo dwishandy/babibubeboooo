@@ -54,7 +54,7 @@ h1 {
   position: sticky;
   bottom: 5%;
   left: 0;
-  width: 30%;
+  width: 40%;
 }
 
 .shuffle-button:hover {
@@ -109,6 +109,15 @@ h1 {
   position: absolute;
   pointer-events: none;
   opacity: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  font-family: "Comic Neue", cursive;
 }
 
 @keyframes gradientBG {

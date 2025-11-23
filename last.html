@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kenangan Manis TENTANGMU ✨</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/last.css" />
     <link
       rel="shortcut icon"
@@ -50,11 +51,16 @@
       </div>
     </div>
 
-    <section class="welcome">
+    <section data-aos="fade-up" class="welcome">
       <h1>Foto pilihan Tentangmu</h1>
     </section>
 
-    <section class="image">
+    <section
+      data-aos="fade-up"
+      data-aos-duration="1500"
+      data-aos-delay="800"
+      class="image"
+    >
       <div class="image-grid">
         <img src="assets/img/img1.jpg" alt="Memory 1" />
         <img src="assets/img/img2.jpg" alt="Memory 2" />
@@ -72,7 +78,7 @@
 
     <section class="time">
       <div class="container-cotton">
-        <div class="birth-date">
+        <div data-aos="fade-right" class="birth-date">
           <p class="heading">Waktu terus berjalan, tepatnya sudah...</p>
           <div class="clock-holder">
             <font id="years-birth"></font>
@@ -86,7 +92,7 @@
             yang pernah 'ku temui.
           </p>
         </div>
-        <div class="anniv-date">
+        <div data-aos="fade-left" data-aos-delay="500" class="anniv-date">
           <div class="clock-holder">
             <font id="month-anniv"></font>
             <font id="days-anniv"></font>
@@ -103,7 +109,7 @@
     </section>
     <div class="trans2"></div>
 
-    <section class="gift-box-container">
+    <section data-aos="zoom-in-up" class="gift-box-container">
       <h2 id="gift">Klik kotak hadiahmu!💖</h2>
       <br />
       <div class="gift-box" data-gift="assets/img/gift1.jpg">
@@ -129,7 +135,7 @@
       </div>
     </section>
 
-    <section class="final-message">
+    <section data-aos="flip-left" class="final-message">
       <h1>Happy 14th Birthday, Niaa 💖 ! 🎂🎉</h1>
       <p class="birthday-wishes">
         Selamat Ulang Tahun untuk permepuan luar biasa yang telah menghiasi
@@ -162,6 +168,14 @@
       >
     </section>
 
+    <footer>
+      <p>Made with ♥️ from Idzhar to Niaa</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="js/last.js"></script>
   </body>
 </html>
