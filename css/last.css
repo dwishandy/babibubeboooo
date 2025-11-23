@@ -21,6 +21,11 @@ body {
   font-family: "Quicksand", sans-serif;
   overflow-x: hidden;
   color: #4a4a4a;
+  width: 100%;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .trans1 {
@@ -116,7 +121,6 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   margin: 20px auto;
-  max-width: 600px;
 }
 
 .image-grid img {
@@ -302,12 +306,24 @@ body {
 
 footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 20px 0;
+  width: 100%;
 }
 
 footer p {
   font-family: "Comic Neue", cursive;
+  width: 100%;
+  text-align: center;
+}
+
+footer .img img {
+  margin-top: 10px;
+  width: 60px;
+  border-radius: 10%;
+  box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
+  animation: float 4s infinite ease-in-out;
 }
 
 ::-webkit-scrollbar {
